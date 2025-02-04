@@ -1,0 +1,24 @@
+{
+    "dex_api_url": "https://api.dexscreener.com/latest/dex/tokens/",
+    "rugcheck_api_url": "https://api.rugcheck.xyz/v1/token",
+    "database_name": "crypto_data.db",
+    "update_interval_seconds": 60,
+    "filters": {
+      "min_liquidity": 10000,
+      "max_price": 1000,
+      "min_volume": 500000,
+      "max_volume_liquidity_ratio": 10
+    },
+    "blacklist": {
+      "coins": ["rug_token_1", "rug_token_2"],
+      "devs": ["rug_dev_1", "rug_dev_2"]
+    },
+    "telegram": {
+      "bot_token": "8097508114:AAGs-Gv8DAOmQDXyiHvV7LrpXvLrlNR_Qv8",
+      "chat_id": 5709726750
+    },
+    "bonkbot": {
+      "command_prefix": "/bonkbot",
+      "trade_command": "buy"
+    }
+  }
